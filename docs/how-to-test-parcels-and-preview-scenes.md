@@ -25,7 +25,7 @@ Note that the test-scenes building may take a while (10 mins or more).
 NOTE(optional): If you don't need to modify the test-scenes and just build them once, you may only run once `make test-scenes` (it takes a while) and that'd be it.
 
 ### Creating New Test Scenes
-It is possible to define new scenes inside this repo for testing purposes. To do so, create a new folder in `kernel/public/test-scenes`. There are several conventions to be followed regarding the name of these folders and the positions of the parcels, these can be found in the [README](https://github.com/decentraland/client/blob/master/public/test-scenes/README.md) file.
+It is possible to define new scenes inside this repo for testing purposes. To do so, create a new folder in `kernel/public/test-scenes`. There are several conventions to be followed regarding the name of these folders and the positions of the parcels, these can be found in the [README](https://github.com/decentraland/explorer/tree/master/kernel/public/test-scenes/README.md) file.
 
 To be able to see the changes made on a test scene (by reloading the browser), without needing to rebuild all the scenes, you should have another terminal running `make watch-only-test-scenes` and that'll keep watching for changes in the test scenes.
 
